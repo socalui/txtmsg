@@ -1,0 +1,53 @@
+<?xml version='1.0' standalone='yes' ?>
+<file ver="2">
+  <thread n="300">
+    <message type="SMS">
+      <address>9492222222</address>
+      <body>Okay.++Thanks</body>
+      <date>1512425759826</date>
+      <read>1</read>
+      <type>2</type>
+      <locked>0</locked>
+    </message>
+    <message type="SMS">
+      <address>9492222222</address>
+      <body>I%E2%80%99m%0AAt+work+but+his+%23+is+949333333</body>
+      <date>1512425648805</date>
+      <read>1</read>
+      <type>1</type>
+      <locked>0</locked>
+    </message>
+    <message type="SMS">
+      <address>9492222222</address>
+      <body>I+want+to+ask+your+father+a+question.++Does+he+know+how+I+can+get+rid+of+a+few+yards+of+dirt%3F++Also%2C+does+he+have+any+recommendations++for+bending+rebar%3F</body>
+      <date>1512424641471</date>
+      <read>1</read>
+      <type>2</type>
+      <locked>0</locked>
+    </message>
+    <message type="SMS">
+      <address>9492222222</address>
+      <body>Thanks+Chris+%3A%29</body>
+      <date>1512326271908</date>
+      <read>1</read>
+      <type>1</type>
+      <locked>0</locked>
+    </message>
+    <message type="SMS">
+      <address>9498725966</address>
+      <body>Okay.++I+was+just+letting+you+know.</body>
+      <date>1512324994768</date>
+      <read>1</read>
+      <type>2</type>
+      <locked>0</locked>
+    </message>
+    <message type="SMS">
+      <address>9492222222</address>
+      <body>day+</body>
+      <date>1512324941680</date>
+      <read>1</read>
+      <type>1</type>
+      <locked>0</locked>
+    </message>
+  </thread>
+</file>

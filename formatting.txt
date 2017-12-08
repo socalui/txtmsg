@@ -1,0 +1,18 @@
+Enter name of other person:  A
+Enter name of phone owner: C
+Show timestamp?  1 = yes, 0 = no:
+- - - -
+Phone number of A: (949) 222-2222
+
+
+C: Okay.  Thanks
+Dec 10, 2017
+
+
+
+
+// what the hell is going on here?
+A: I%E2%80%99m%0AAt+work+but+his+%23+is+9495108453
+
+A: I’m
+At work but his # is 9495108453   
