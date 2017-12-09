@@ -1,4 +1,4 @@
-Enter name of other person:  A
+Enter name of other party: A
 Enter name of phone owner: C
 Show timestamp?  1 = yes, 0 = no:
 - - - -
@@ -6,7 +6,11 @@ Phone number of A: (949) 222-2222
 
 
 C: Okay.  Thanks
-Dec 10, 2017
+Dec 10, 2017.  2:14 PM
+
+A: Blah Blah Blah
+Dec 10, 2017.  2:21 PM
+
 
 
 

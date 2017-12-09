@@ -4,3 +4,8 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += main.cpp
+
+DISTFILES += \
+    examplemsg.xml \
+    formatting.txt \
+    Readme.txt
