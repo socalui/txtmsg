@@ -10,13 +10,3 @@ Dec 10, 2017.  2:14 PM
 
 A: Blah Blah Blah
 Dec 10, 2017.  2:21 PM
-
-
-
-
-
-// what the hell is going on here?
-A: I%E2%80%99m%0AAt+work+but+his+%23+is+9491234567
-
-A: I’m
-At work but his # is 9491234567   
