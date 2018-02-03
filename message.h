@@ -3,13 +3,17 @@
 #include <string>
 #include <time.h>
 
+#include <QObject>
+
 using namespace std;
 
 
-class message
+class message : public QObject
 {
 public:
-    message();
+    // what is this?  constructor?
+    // from Pokenoya01
+    explicit message(QObject *parent = nullptr);
 
     // clear
     void clearMessage();
@@ -28,6 +32,11 @@ public:
     time_t getDate();
 
 private:
+    // pokenoya01
+    Q_OBJECT    // Qt macro
+    //Q_Property(int count )
+
+
     // data members
     string body;
     bool isSenderOP;  // work on this.  how is set/get different than isSenderOP()?

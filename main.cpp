@@ -1,3 +1,5 @@
+#include <QGuiApplication>
+#include <QQmlApplicationEngine>
 #include <iostream>
 #include <fstream>
 #include <string>
@@ -9,8 +11,19 @@
 
 using namespace std;
 
-int main()
+int main(int argc, char *argv[])
 {
+    QGuiApplication app(argc, argv);
+
+    // before loading page
+    qmlRegisterType<message>("CHMessage", 1, 0, "Msg");
+
+    QQmlApplicationEngine engine;
+    engine.load(QUrl(QStringLiteral("qrc:/main.qml")));
+    if (engine.rootObjects().isEmpty())
+        return -1;
+
+
     message myObject;   // holds a single message
     string line;        // line pulled off XML
     ifstream msgfile;   // file stream object
@@ -72,5 +85,5 @@ int main()
 
     else {cout << "Unable to open file" << endl;}
 
-    return 0;
+    return app.exec();
 } // end main

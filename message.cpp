@@ -5,16 +5,20 @@
 
 using namespace std;
 
-message::message()
-{
-    cout << "Enter name of the phone's owner: ";
-    getline(cin, nameOP);
-    cout << "\nEnter name of other person: ";
-    getline(cin, nameOther);
 
-body = "";
-isSenderOP = 0;
-date = 0;
+message::message(QObject *parent) : QObject(parent)
+{
+//    cout << "Enter name of the phone's owner: ";
+//    getline(cin, nameOP);
+//    cout << "\nEnter name of other person: ";
+//    getline(cin, nameOther);
+
+    nameOP = "phone owner";
+    nameOther = "other person";
+
+    body = "";
+    isSenderOP = 0;
+    date = 0;
 }
 
 // clear before starting
